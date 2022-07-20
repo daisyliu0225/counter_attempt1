@@ -11,7 +11,7 @@ butB = 0
 basic.forever(function () {
     if (butA == 1) {
         for (let index = 0; index <= 10; index++) {
-            basic.showNumber(index)
+            basic.showNumber(10 - index)
             basic.pause(200)
             if (butB == 1) {
                 butB = 0
